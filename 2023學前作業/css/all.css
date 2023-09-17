@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+*, *::before, *::after{box-sizing:border-box;}
+
+
+.container{
+   
+    max-width: 1296px;
+    margin: 0 auto;
+    
+}
+
+.pl-312{
+  padding-left: 312px;
+}
+
+
+
+.title{
+    font-size: 128px;
+    line-height: 192px;
+    letter-spacing: 12px;
+    
+} 
+.pic{
+  text-align: center;
+}
+
+.photo{
+    max-width:100%; 
+}
+
+.resume{
+    font-size: 128px;
+    line-height: 192px;
+    letter-spacing: 12px;
+   text-align: right;
+}
+
+.gray{
+    width: 100%;
+    background: #EFEFEF;
+    height:432px;
+    position: relative;
+    
+   
+}
+.word{
+  position: absolute;
+  right: 0;
+    width: 636px;
+    height: 336px;
+    font-size: 32px;
+    line-height: 48px;   
+}
+.intur{
+  width: 636px;
+}
+.name{
+  font-size: 40px;
+  line-height: 60px;
+  color: red;
+  width: 636px;
+  border-bottom:3px solid #AE0000;
+}
+
+.pb-40{
+  padding-bottom: 40px;
+}
+.pt-16{
+  padding-top: 16px;
+}
+.lh-36{
+  line-height: 36px;
+}
+.content{
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.year{
+  font-size: 20px;
+  font-style:italic;
+  color:#949494;
+}
+.footer{
+  display: flex;
+  height: 192px;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  width:272px;  
+  display: flex;
+  justify-content: space-between;
+}
+
+
